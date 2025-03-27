@@ -1,33 +1,36 @@
-# ClassMarker Testing Project  
+# 📝 ClassMarker Testing Project  
 
-This repository contains all test-related documents for the **ClassMarker Testing Project**, including test cases, bug reports, and test summary reports.
-
-## 📌 Project Overview  
-This project aims to test the **ClassMarker online exam platform**, focusing on:  
-- Functional testing of exam features.  
-- Bug tracking and reporting.  
-- Documenting test cases and execution results.
+## 🔍 Overview  
+This repository contains all the test artifacts for the **ClassMarker Online Exam & Proctoring System** testing project. The project focuses on ensuring the functionality, usability, and security of the platform.
 
 ## 📂 Repository Structure  
-📁 ClassMarker-Testing
-┣ 📂 TestCases (CSV Format)
-┣ 📂 BugReports (Markdown Format)
-┣ 📂 TestDocuments (Word Format)
-┣ 📂 TestSummary (Markdown Format)
-┣ 📜 README.md
+📂 ClassMarker-Testing
+├── 📁 TestCases/ (CSV files of test cases)
+├── 📁 BugReports/ (Markdown files of bug reports)
+├── 📁 TestDocuments/ (Word documents of test plans & summaries)
+├── 📄 README.md (Project Overview)
 
 markdown
 Copy
 Edit
 
-## 📝 Documents Included  
-- **Test Cases:** Stored in CSV format inside the `TestCases` folder.  
-- **Bug Reports:** Written in Markdown (`.md`) and stored in `BugReports`.  
-- **Test Documents:** Contain test strategies and plans (`.doc` format) in `TestDocuments`.  
-- **Test Summary Report:** High-level overview of test execution results (`.md` format) in `TestSummary`.  
+## 🛠️ Tools & Technologies Used  
+- **Testing Type:** Manual Testing  
+- **Test Management Tool:** JIRA  ,Google Docs & Excel
+- **Bug Tracking:** JIRA  
+- **Test Documentation:** Microsoft Word, Markdown  
+- **Test Execution:** Functional, UI, Regression, and Integration Testing  
 
-## 🚀 How to Use  
-1. Browse the repository to access different test documents.  
-2. Clone the repository using:  
-   ```bash
-   git clone https://github.com/your-username/ClassMarker-Testing.git
+## 📑 Documents Included  
+✅ **Test Cases** (`.csv` format) – All test cases are categorized and structured.  
+✅ **Bug Reports** (`.md` format) – Documented defects found during testing.  
+✅ **Test Summary Report** (`.md` format) – Summary of findings and test execution.  
+✅ **Test Plan & Documentation** (`.doc` format) – Comprehensive test plan and approach.  
+
+## 📌 How to Use This Repo  
+1. Browse the **TestCases/** folder for test cases.  
+2. Check the **BugReports/** folder for logged defects.  
+3. Read the **Test Summary Report** for overall project status.  
+
+## 🤝 Contributing  
+This is a personal project for learning and showcasing skills. If you have any suggestions, feel free to raise an issue!  
