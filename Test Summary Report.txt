@@ -1,0 +1,38 @@
+Test Summary Report:
+
+ Date: March 17, 2025
+ Project Name: Class Marker Online Exam & Proctoring System Testing
+ Tester: Aduri N V S S Amruta Lalitha Harini
+ Test Type: Manual Testing
+
+Test Overview :
+ report provides a summary of the testing conducted on the ClassMarker Online Exam System. The goal was to evaluate the system’s stability, functionality, and user experience through manual testing based on different test scenarios.
+
+2. Scope of Testing:
+The following features were tested:
+User Authentication – Login, Registration, Password Reset
+Exam Functionality – Starting, Resuming, and Submitting Exams
+Timer Behavior – Auto-submission, Countdown Timer, Warnings
+Proctoring Features – Tab Switching, Webcam Detection, Connection Loss Handling
+Result Processing – Answer Evaluation, Retake Rules, Report Generation
+3. Testing Approach
+Testing Type: Functional, UI/UX, and Negative Testing
+Test Execution Method: Manual Testing
+Test Case Format: Google Sheets (Test Cases documented in a structured format)
+4. Test Execution Summary:
+CategoryCountTotal Test Scenarios15Total Test Cases35Test Cases Passed25Test Cases Failed10Bugs Reported4
+5. Major Bugs Identified
+Bug 1: Timer does not resume correctly after page refresh.
+Bug 2: System does not display warning before auto-submission.
+Bug 3: Exam does not get locked after multiple tab switches.
+Bug 4: Students can access results before submission in certain scenarios.
+
+6. Overall Testing Outcome:
+ System Stability: Stable with Minor Issues
+Pass Percentage: 71.4%
+ Further Testing Required: Yes, to verify bug fixes
+Next Steps:
+Retesting after reported bug fixes.
+Verifying the stability of fixes in future updates.
+
+ Final Conclusion: The testing was successfully completed, and all identified bugs have been documented in Jira. The system is functional but requires minor fixes to ensure seamless operation.
